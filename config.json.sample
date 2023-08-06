@@ -1,0 +1,16 @@
+{
+    "follow_symlinks": false,
+    "debug": false,
+    "pid_file": "./.pid",
+    "root_dirs": ["/path/to/dir1", "/path/to/dir2"],
+    "file_handlers": {
+        ".txt": "TextFileHandler",
+        ".jpg": "ImageFileHandler",
+        ".jpeg": "ImageFileHandler",
+        ".png": "ImageFileHandler"
+    },
+    "auth": {
+        "username": "user",
+        "password": "pass"
+    }
+}
